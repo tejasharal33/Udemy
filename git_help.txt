@@ -1,3 +1,5 @@
+q to quit git cmd
+
 git add "filename.txt": add files in staging area of git to commit new and modified files
 git commit -m "some msg" : commit a record
 git status : shows status as below -
@@ -44,8 +46,15 @@ case 1 : staged changes
             git reset
 
 case 2 : commited changes (for one commit)
-            git reset HEAD-1
+            git reset HEAD~1
 
 case 3 : commited changes (for many commits)
             git reset "commit hash"
             git reset --hard "commit hash"
+
+# git logs
+
+git log : to check history of git
+
+# Fork : A rough copy of a repository
+Manully from git hub using public repositories
