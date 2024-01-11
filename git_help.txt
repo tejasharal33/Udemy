@@ -1,5 +1,5 @@
 git add "filename.txt": add files in staging area of git to commit new and modified files
-git commit -m "some msg" : sync local and github
+git commit -m "some msg" : commit a record
 git status : shows status as below -
     untracked - new file not on git hub yet
     modified - modified file locally
@@ -7,3 +7,4 @@ git status : shows status as below -
     unchanged/unmodified - not modified yet locally 
 
 git add . : adds all files
+git push origin main : upload local content to remote[github]
