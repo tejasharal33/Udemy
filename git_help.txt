@@ -23,3 +23,29 @@ git branch -M main : to rename branch
 git checkout <- branch name-> : to navigate through branches
 git checkout -b <- branch name-> : creates new branch
 git branch -d <- branch name->
+
+# merge branch
+
+git diff <- branch name-> : to compare commits,branches,files & more
+git merge <_ branch name-> : to merge 2 branches
+
+create a PR : another way to merge using pull request on github
+
+git pull origin main : fetch and download content form remote to local repo
+
+# Resolve merge conflicts [unable to automatically resolve merge conflicts]
+manually do it in vs code
+
+# Undoing changes
+
+case 1 : staged changes
+
+            git reset "filename"
+            git reset
+
+case 2 : commited changes (for one commit)
+            git reset HEAD-1
+
+case 3 : commited changes (for many commits)
+            git reset "commit hash"
+            git reset --hard "commit hash"
