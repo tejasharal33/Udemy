@@ -8,3 +8,18 @@ git status : shows status as below -
 
 git add . : adds all files
 git push origin main : upload local content to remote[github]
+git push -u origin main : create a short form to  push by default to origin. using 'git push'
+git init : new repo creation
+git remote add origin <link> : push repository on github (need to create a github repo first)
+git remote -v : to verify remote repository 
+git branch : to check branch 
+git branch -M main :  to rename branch
+
+Workflow : Github Repo -> clone it to local -> changes -> add -> commit -> push
+
+# branch
+git branch : to check branch
+git branch -M main : to rename branch
+git checkout <- branch name-> : to navigate through branches
+git checkout -b <- branch name-> : creates new branch
+git branch -d <- branch name->
