@@ -58,3 +58,18 @@ git log : to check history of git
 
 # Fork : A rough copy of a repository
 Manully from git hub using public repositories
+
+
+If you're using VSCode as your default editor, Git might open VSCode for you to write the commit message. After saving and closing the editor, Git will complete the commit.
+
+If you're unsure how to proceed in the editor that opened, here's a general guide:
+
+Insert Mode:
+If you're in a text editor like Vim, you may need to press "i" to enter insert mode before typing your message.
+Save and Exit:
+After entering your commit message, save and exit the editor. In Vim, you can usually do this by pressing Esc to exit insert mode, then typing :wq and pressing Enter. For other editors, follow their respective save and exit commands.
+If you prefer to provide the commit message directly in the terminal without opening an editor, you can use the -m option:
+
+bash
+Copy code
+git commit -m "Your commit message here"
